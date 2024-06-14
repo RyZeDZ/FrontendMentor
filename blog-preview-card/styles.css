@@ -22,8 +22,13 @@ body {
 	box-shadow: 10px 10px black;
 }
 
+
 .card img {
 	border-radius: 10px;
+}
+
+.card a {
+	text-decoration: none;
 }
 
 .label-text {
@@ -48,6 +53,10 @@ body {
 	font-size: 24px;
 	margin: 15px 0;
 	color: hsl(0, 0%, 7%);
+}
+
+.title:hover {
+	color: hsl(47, 88%, 63%);
 }
 
 .description {
