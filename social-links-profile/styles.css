@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+body {
+	font-family: "Inter", sans-serif;
+	background-color: hsl(0, 0%, 8%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	color: white;
+}
+
+
+.card {
+	width: 325px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: hsl(0, 0%, 12%);
+	border-radius: 16px;
+	padding: 30px;
+}
+
+
+.card img {
+	border-radius: 50%;
+	width: 96px;
+	height: 96px;
+	margin-bottom: 30px;
+}
+
+
+.name {
+	font-weight: 700;
+	font-size: 24px;
+	margin: 0;
+}
+
+
+.location {
+	font-size: 15px;
+	color: hsl(75, 94%, 57%);
+	font-weight: 600;
+	margin: 5px;
+}
+
+
+.description {
+	font-size: 14px;
+	margin: 15px;
+}
+
+
+.links {
+	background-color: hsl(0, 0%, 20%);
+	color: white;
+	border: none;
+	width: 90%;
+	height: 45px;
+	margin: 8px 25px;
+	border-radius: 10px;
+	font-weight: 700;
+	font-size: 16px;
+}
+
+
+.links:hover {
+	background-color: hsl(75, 94%, 57%);
+	color: black;
+}
