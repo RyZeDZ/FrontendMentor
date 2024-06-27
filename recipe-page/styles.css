@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+body {
+	background-color: hsl(30, 54%, 90%);
+	font-family: "Outfit", sans-serif;
+	display: flex;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+
+.card {
+	background-color: white;
+	min-width: 400px;
+	max-width: 800px;
+	border-radius: 20px;
+	margin: 100px;
+	color: hsl(24, 5%, 18%);
+}
+
+
+.card img {
+	width: 100%;
+	border-radius: 20px;
+}
+
+.image {
+	display: flex;
+	justify-content: center;
+	margin: 35px;
+}
+
+
+.card-content {
+	padding: 0 30px;
+}
+
+
+h1 {
+	color: hsl(24, 5%, 18%);
+	font-family: "Young serif", sans-serif;
+}
+
+
+.preparation-card {
+	background-color: hsl(330, 100%, 98%);
+	padding: 10px 20px;
+	border-radius: 10px;
+}
+
+
+.preparation-time {
+	color: hsl(332, 51%, 32%);
+	font-weight: 700;
+	font-size: 20px;
+}
+
+
+.preparation-card ul {
+	color: hsl(30, 10%, 34%);
+}
+
+
+.preparation-card li {
+	margin: 6px;
+	padding: 0 20px;
+}
+
+
+.preparation-card li::marker {
+	color: hsl(332, 51%, 32%);
+}
+
+
+.preparation-card li span {
+	font-weight: 700;
+}
+
+
+.ingrediants-title, .instructions, .nutrition {
+	color: hsl(14, 45%, 36%);
+	font-weight: 700;
+	font-size: 32px;
+	font-family: "Young serif", sans-serif;
+	margin: 20px 0 0 0;
+}
+
+
+.ingrediants li {
+	padding: 6px 16px;
+}
+
+
+.ingrediants li::marker {
+	color: hsl(14, 45%, 36%);
+}
+
+
+hr {
+	border: 0;
+	height: 1px;
+	background-color: hsl(30, 18%, 87%);
+}
+
+
+ol li {
+	padding: 6px 16px;
+}
+
+
+ol li::marker {
+	color: hsl(14, 45%, 36%);
+	font-weight: bold;
+}
+
+
+.Instructions-subtitle {
+	font-weight: bold;
+	color: hsl(30, 10%, 34%);
+}
+
+
+.table {
+	padding: 0 20px;
+	border-bottom: 1px solid hsl(30, 18%, 87%);
+	font-size: 16px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.size {
+	color: hsl(14, 45%, 36%);
+	font-weight: bold;
+	text-align: center;
+	width: 50%;
+}
+
+
+.type {
+	color: hsl(30, 10%, 34%);
+}
+
+
+.table:last-child {
+	border-bottom: none;
+	margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 400px) {
+	body {
+		margin: 0;
+		overflow-x: hidden;
+	}
+	.card {
+		margin: 0;
+	}
+}
